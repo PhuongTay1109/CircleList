@@ -274,7 +274,6 @@ void node(int x1, int y1, int x2, int y2, const char* text)
 
 // draw link line of circle list
 void drawCircleLink(int x2, int y2, int y1, int size) {
-
 	line(x2 + 50, y1 + (y2 - y1) / 2, x2 + 50, y1 + (y2 - y1) / 2 + 75);
 	line(x2 + 50, y1 + (y2 - y1) / 2 + 75, x2 + 75 - 100 * size, y1 + (y2 - y1) / 2 + 75);
 	line(x2 + 75 - 100 * size, y1 + (y2 - y1) / 2 + 75, x2 + 75 - 100 * size, y1 + (y2 - y1) / 2 + 25);
