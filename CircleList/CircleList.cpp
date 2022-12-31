@@ -60,14 +60,6 @@ void drawWelcomeInterface()
     drawText(400, 430, "Press any key to start.", 255, 255, 255);
 }
 
-void drawCircleLink(int x2, int y2, int y1, int size) {
-
-    line(x2 + 50, y1 + (y2 - y1) / 2, x2 + 50, y1 + (y2 - y1) / 2 + 75);
-    line(x2 + 50, y1 + (y2 - y1) / 2 + 75, x2 + 75 - 100 * size, y1 + (y2 - y1) / 2 + 75);
-    line(x2 + 75 - 100 * size, y1 + (y2 - y1) / 2 + 75, x2 + 75 - 100 * size, y1 + (y2 - y1) / 2 + 25);
-    line(x2 + 75 - 100 * size, y1 + (y2 - y1) / 2 + 25, x2 + 65 - 100 * size, y1 + (y2 - y1) / 2 + 35);
-    line(x2 + 75 - 100 * size, y1 + (y2 - y1) / 2 + 25, x2 + 85 - 100 * size, y1 + (y2 - y1) / 2 + 35);
-}
 
 void drawObjectsInCirclelist()
 {
